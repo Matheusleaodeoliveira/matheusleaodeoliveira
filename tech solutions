@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tech Solutions - Sua Solução em Tecnologia</title>
+    <title>Tech Solutions - Soluções de Tecnologia</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -19,37 +19,18 @@
             text-align: center;
         }
         .container {
-            max-width: 1200px;
+            max-width: 800px;
             margin: 0 auto;
             padding: 20px;
         }
         h1, h2 {
             margin-top: 0;
         }
-        .team {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 20px;
-            margin-top: 40px;
-        }
-        .member {
-            text-align: center;
-        }
-        .member img {
-            width: 150px;
-            border-radius: 50%;
-            margin-bottom: 10px;
-        }
-        footer {
-            background-color: #007bff;
-            color: #fff;
-            padding: 20px 0;
-            text-align: center;
-            margin-top: 40px;
+        p {
+            margin-top: 0;
         }
         form {
-            margin-top: 40px;
+            margin-top: 20px;
         }
         input[type="text"], input[type="email"], select {
             width: 100%;
@@ -75,47 +56,50 @@
 <body>
     <header>
         <h1>Tech Solutions</h1>
-        <p>Sua Solução em Tecnologia</p>
+        <p>Soluções de Tecnologia para o seu Negócio</p>
     </header>
     <div class="container">
         <h2>Descrição</h2>
-        <p>Somos uma empresa líder em tecnologia e soluções, oferecendo serviços abrangentes em segurança da informação, inteligência artificial, desenvolvimento de sistemas, governança em tecnologia, computação em nuvem, desenvolvimento mobile, engenharia de software, engenharia DevOps, segurança cibernética e UX design.</p>
+        <p>A Tech Solutions é uma empresa especializada em fornecer soluções de tecnologia avançadas para empresas de todos os portes. Nossos serviços incluem:</p>
+        
+        <h3>Segurança da Informação</h3>
+        <p>Nossos especialistas em segurança da informação garantem que seus dados estejam protegidos contra ameaças cibernéticas.</p>
 
-        <h2>Equipe</h2>
-        <div class="team">
-            <div class="member">
-                <img src="team_member1.jpg" alt="Membro da Equipe 1">
-                <h3>João Silva</h3>
-                <p>CEO</p>
-            </div>
-            <div class="member">
-                <img src="team_member2.jpg" alt="Membro da Equipe 2">
-                <h3>Maria Santos</h3>
-                <p>CTO</p>
-            </div>
-            <div class="member">
-                <img src="team_member3.jpg" alt="Membro da Equipe 3">
-                <h3>Pedro Almeida</h3>
-                <p>Engenheiro de Software</p>
-            </div>
-        </div>
+        <h3>Inteligência Artificial</h3>
+        <p>Desenvolvemos soluções de IA personalizadas para automatizar processos e melhorar a tomada de decisões.</p>
+
+        <h3>Banco de Dados</h3>
+        <p>Gerenciamos e otimizamos bancos de dados para garantir acesso rápido e confiável às informações.</p>
+
+        <h3>Análise e Desenvolvimento de Sistemas</h3>
+        <p>Nossa equipe de desenvolvimento cria sistemas eficientes e personalizados para atender às necessidades específicas de sua empresa.</p>
+
+        <h3>Computação em Nuvem</h3>
+        <p>Oferecemos soluções de computação em nuvem escaláveis e seguras para sua infraestrutura de TI.</p>
+
+        <h3>Desenvolvimento Mobile</h3>
+        <p>Desenvolvemos aplicativos móveis inovadores para iOS e Android, proporcionando uma experiência excepcional aos usuários.</p>
+
+        <h3>Engenharia de Software</h3>
+        <p>Nossa equipe de engenheiros de software cria soluções robustas e escaláveis para atender às suas necessidades de negócios.</p>
+
+        <h3>Engenharia DevOps</h3>
+        <p>Implementamos práticas DevOps para melhorar a colaboração entre equipes e acelerar o ciclo de vida do desenvolvimento de software.</p>
+
+        <h3>Segurança Cibernética</h3>
+        <p>Protegemos sua empresa contra ameaças cibernéticas em constante evolução, garantindo a segurança dos seus dados.</p>
+
+        <h3>UX Design</h3>
+        <p>Nossa equipe de UX design cria interfaces intuitivas e atraentes para garantir uma experiência de usuário excepcional.</p>
 
         <h2>Formulário de Inscrição</h2>
         <form action="#" method="post">
             <input type="text" name="nome" placeholder="Nome" required><br>
             <input type="email" name="email" placeholder="E-mail" required><br>
             <input type="text" name="cidade" placeholder="Cidade" required><br>
-            <select name="estado" required>
-                <option value="" disabled selected>Selecione o Estado</option>
-                <option value="AC">Acre</option>
-                <option value="AL">Alagoas</option>
-                <!-- Adicione mais estados aqui -->
-            </select><br>
+            <input type="text" name="estado" placeholder="Estado" required><br>
             <input type="submit" value="Enviar">
         </form>
     </div>
-    <footer>
-        <p>&copy; 2024 Tech Solutions. Todos os direitos reservados.</p>
-    </footer>
 </body>
 </html>
