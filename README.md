@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tech Solutions - Sua Parceira em Tecnologia</title>
+    <title>Tech Solutions - Soluções de Tecnologia para o seu Negócio</title>
     <style>
         /* Estilos gerais */
         body {
@@ -30,9 +30,8 @@
         }
         /* Estilos para os serviços */
         .services {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 20px;
             margin-top: 40px;
         }
@@ -41,7 +40,6 @@
             padding: 20px;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            width: 300px;
         }
         .service h2 {
             margin-top: 0;
@@ -60,7 +58,7 @@
     <header>
         <div class="container">
             <h1>Tech Solutions</h1>
-            <p>Sua Parceira em Tecnologia</p>
+            <p>Soluções de Tecnologia para o seu Negócio</p>
         </div>
     </header>
     <div class="container">
@@ -83,8 +81,28 @@
                 <p>Criamos sistemas personalizados que atendem às necessidades específicas de sua empresa.</p>
             </div>
             <div class="service">
-                <h2>Governança em Tecnologia</h2>
-                <p>Implementamos práticas de governança que garantem o alinhamento dos recursos tecnológicos com os objetivos do negócio.</p>
+                <h2>Computação em Nuvem</h2>
+                <p>Oferecemos soluções de computação em nuvem escaláveis e confiáveis para sua infraestrutura de TI.</p>
+            </div>
+            <div class="service">
+                <h2>Desenvolvimento Mobile</h2>
+                <p>Criamos aplicativos móveis de alta qualidade para iOS e Android que cativam seus usuários.</p>
+            </div>
+            <div class="service">
+                <h2>Engenharia de Software</h2>
+                <p>Desenvolvemos software robusto e escalável usando as melhores práticas de engenharia de software.</p>
+            </div>
+            <div class="service">
+                <h2>Engenharia DevOps</h2>
+                <p>Implementamos práticas DevOps para acelerar o ciclo de vida do desenvolvimento de software e melhorar a colaboração entre equipes.</p>
+            </div>
+            <div class="service">
+                <h2>Segurança Cibernética</h2>
+                <p>Protegemos sua empresa contra ameaças cibernéticas em constante evolução e garantimos a conformidade com os padrões de segurança.</p>
+            </div>
+            <div class="service">
+                <h2>UX Design</h2>
+                <p>Projetamos interfaces de usuário intuitivas e atraentes que proporcionam experiências excepcionais aos seus clientes.</p>
             </div>
         </div>
     </div>
