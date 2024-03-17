@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tech Solutions - Soluções de Tecnologia para o seu Negócio</title>
+    <title>Tech Solutions - Sua Solução em Tecnologia</title>
     <style>
-        /* Estilos gerais */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -13,38 +12,35 @@
             background-color: #f9f9f9;
             color: #333;
         }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        /* Estilos para o cabeçalho */
         header {
             background-color: #007bff;
             color: #fff;
             padding: 20px 0;
             text-align: center;
         }
-        header h1 {
-            margin: 0;
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
         }
-        /* Estilos para os serviços */
-        .services {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        h1, h2 {
+            margin-top: 0;
+        }
+        .team {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
             gap: 20px;
             margin-top: 40px;
         }
-        .service {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        .member {
+            text-align: center;
         }
-        .service h2 {
-            margin-top: 0;
+        .member img {
+            width: 150px;
+            border-radius: 50%;
+            margin-bottom: 10px;
         }
-        /* Estilos para o rodapé */
         footer {
             background-color: #007bff;
             color: #fff;
@@ -52,65 +48,74 @@
             text-align: center;
             margin-top: 40px;
         }
+        form {
+            margin-top: 40px;
+        }
+        input[type="text"], input[type="email"], select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
     </style>
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1>Tech Solutions</h1>
-            <p>Soluções de Tecnologia para o seu Negócio</p>
-        </div>
+        <h1>Tech Solutions</h1>
+        <p>Sua Solução em Tecnologia</p>
     </header>
     <div class="container">
-        <h2>Nossos Serviços</h2>
-        <div class="services">
-            <div class="service">
-                <h2>Segurança da Informação</h2>
-                <p>Protegemos sua empresa contra ameaças digitais e garantimos a integridade de seus dados.</p>
+        <h2>Descrição</h2>
+        <p>Somos uma empresa líder em tecnologia e soluções, oferecendo serviços abrangentes em segurança da informação, inteligência artificial, desenvolvimento de sistemas, governança em tecnologia, computação em nuvem, desenvolvimento mobile, engenharia de software, engenharia DevOps, segurança cibernética e UX design.</p>
+
+        <h2>Equipe</h2>
+        <div class="team">
+            <div class="member">
+                <img src="team_member1.jpg" alt="Membro da Equipe 1">
+                <h3>João Silva</h3>
+                <p>CEO</p>
             </div>
-            <div class="service">
-                <h2>Inteligência Artificial</h2>
-                <p>Desenvolvemos soluções avançadas de IA para otimizar processos e aumentar a eficiência.</p>
+            <div class="member">
+                <img src="team_member2.jpg" alt="Membro da Equipe 2">
+                <h3>Maria Santos</h3>
+                <p>CTO</p>
             </div>
-            <div class="service">
-                <h2>Banco de Dados</h2>
-                <p>Gerenciamos e otimizamos seus bancos de dados para garantir acesso rápido e confiável às informações.</p>
-            </div>
-            <div class="service">
-                <h2>Análise e Desenvolvimento de Sistemas</h2>
-                <p>Criamos sistemas personalizados que atendem às necessidades específicas de sua empresa.</p>
-            </div>
-            <div class="service">
-                <h2>Computação em Nuvem</h2>
-                <p>Oferecemos soluções de computação em nuvem escaláveis e confiáveis para sua infraestrutura de TI.</p>
-            </div>
-            <div class="service">
-                <h2>Desenvolvimento Mobile</h2>
-                <p>Criamos aplicativos móveis de alta qualidade para iOS e Android que cativam seus usuários.</p>
-            </div>
-            <div class="service">
-                <h2>Engenharia de Software</h2>
-                <p>Desenvolvemos software robusto e escalável usando as melhores práticas de engenharia de software.</p>
-            </div>
-            <div class="service">
-                <h2>Engenharia DevOps</h2>
-                <p>Implementamos práticas DevOps para acelerar o ciclo de vida do desenvolvimento de software e melhorar a colaboração entre equipes.</p>
-            </div>
-            <div class="service">
-                <h2>Segurança Cibernética</h2>
-                <p>Protegemos sua empresa contra ameaças cibernéticas em constante evolução e garantimos a conformidade com os padrões de segurança.</p>
-            </div>
-            <div class="service">
-                <h2>UX Design</h2>
-                <p>Projetamos interfaces de usuário intuitivas e atraentes que proporcionam experiências excepcionais aos seus clientes.</p>
+            <div class="member">
+                <img src="team_member3.jpg" alt="Membro da Equipe 3">
+                <h3>Pedro Almeida</h3>
+                <p>Engenheiro de Software</p>
             </div>
         </div>
+
+        <h2>Formulário de Inscrição</h2>
+        <form action="#" method="post">
+            <input type="text" name="nome" placeholder="Nome" required><br>
+            <input type="email" name="email" placeholder="E-mail" required><br>
+            <input type="text" name="cidade" placeholder="Cidade" required><br>
+            <select name="estado" required>
+                <option value="" disabled selected>Selecione o Estado</option>
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <!-- Adicione mais estados aqui -->
+            </select><br>
+            <input type="submit" value="Enviar">
+        </form>
     </div>
     <footer>
-        <div class="container">
-            <p>&copy; 2024 Tech Solutions. Todos os direitos reservados.</p>
-        </div>
+        <p>&copy; 2024 Tech Solutions. Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
-
